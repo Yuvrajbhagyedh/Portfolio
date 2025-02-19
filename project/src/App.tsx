@@ -189,7 +189,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="./public/profile.jpg" 
+                src="/profile.jpg" 
                 alt="Developer workspace" 
                 className="rounded-lg shadow-lg "
               />
@@ -224,19 +224,19 @@ function App() {
         { 
           id: 1, 
           title: "Portfolio Website", 
-          img: "./public/image.png", 
+          img: "/image.png", 
           description: "I built my portfolio using React, showcasing my skills, projects, and experience with a clean and modern UI. It highlights my expertise in frontend development and design." 
         },
         { 
           id: 2, 
           title: "Data Analysis Dashboard", 
-          img: "./public/image1.png", 
+          img: "/image1.png", 
           description: "This project utilizes Node.js for the backend to process and analyze data efficiently. It features interactive visualizations and analytics tools to help users make data-driven decisions." 
         },
         { 
           id: 3, 
           title: "Piston Hub – Bike Accessories Store", 
-          img: "./public/piston.png", 
+          img: "/piston.png", 
           description: "Piston Hub is an e-commerce platform for motorcycle accessories, designed with a responsive UI and smooth user experience. It enables easy browsing and purchasing of bike accessories." 
         }
       ].map((project) => (
